@@ -10,9 +10,9 @@ const db=require('./config/mongoose');
 // this is the initiator of the routing to different requests of the user with diff. url's
 app.use('/',require('./routes/index'));
    
-
 app.get('/',(req,res)=>{
-    res.send("<h1>As the instructions were to create only an API and not an APP so I have not added much to Frontend part and the Polling System API is running fine , kindly check it on postman!</h1>");
+    res.send("[{ <h4>Question -</h4> <h2>Where is the Polling System API ?</h2> <h4>Answer -</h4><h1> As the instructions in the question document were to create only an API and not an APP so I have not added much to Frontend part and the Polling System API is running fine , kindly check it on postman !</h1>}]");
+
 });
 
 
