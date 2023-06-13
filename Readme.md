@@ -1,4 +1,4 @@
-You need to create an API where anyone can create questions with options and also add votes to it
+This is an API where anyone can create questions with options and also add votes to it
     - Authentication/User identity is not needed, this is going to be a completely open application, however
 if you want to and think there’s extra time, you can create authentication
 - Features
